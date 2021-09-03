@@ -1,0 +1,483 @@
+header{
+    background-color: #f8f8f8;
+    height: 25vh;
+    opacity: 1;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: small;
+    position: relative;
+    right: 25vw;
+}
+li{
+   margin:0 0 0 2vw;
+   color: #707070;
+}
+li:hover{
+     color: #1792D2;
+}
+.first4{
+  color: #143774;
+  font-family: "lora", sans-serif;  
+  position: relative;
+  font-size: 23px;
+  top:  8vh;
+  left: 22vw;
+}
+
+.firstp{
+    color: #1792D2;
+    font-family: "ubuntu", sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 6.4vh;
+    left: 22vw;
+}
+.home{
+    border-bottom:  solid #707070 ;
+}
+.home:hover{
+    color: #707070;
+}
+
+.firstcontainer{
+    background-color:rgb(255, 255, 255);
+    width: 53vw;
+    height:35vh ;
+    margin:4.5vw 0 0 22vw;
+    display: flex;
+}
+img{
+    width:38vw;
+    height: 30vh;
+    object-fit: cover;
+    
+}
+.secondcon{
+    background-color: #EBEBEB;
+    width: 12.5vw;
+    height: 35vh;
+    margin-left: 2vw;
+}
+.thirdcon{
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    margin: 7% 10% 3% 10%;
+}
+h5{
+    position: relative;
+    top: 3vh;
+    left: 20px;
+    color: #143774;
+    font-family: "ubuntu" sans-serif;
+}
+.img2{
+    position: relative;
+    left: 20px;
+    top: 1vh;
+    width: 70%;
+    height:14vh;
+    object-fit: cover;
+}
+.bigcontainer{
+    background-color: rgb(255, 255, 255);
+    width: 53vw;
+    height: 80vh;
+    margin: 0 0 0 22vw;
+}
+ .firsthead{
+    color: #143774; 
+    position: relative;
+    left: 22vw;
+    top: -1.3vh;
+    font-family:sans-serif;
+    font-size: 13px;
+} 
+.first{
+   background-color: rgb(255, 255, 255);
+   width: 72%;
+   height:15vh;
+   border-bottom: 1px solid #707070 ;
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    width: 72%;
+    height:25vh;
+ }
+ .third{
+    background-color: rgb(255, 255, 255);
+    width: 72%;
+    height:25vh;
+ } 
+ .fourth{
+     background-color: #EBEBEB;
+     width: 24%;
+     height: 55vh;
+     position: relative;
+     left: 40vw;
+     bottom: 68.2vh;
+     
+ }
+ .fifth{
+     background-color: rgb(255, 255, 255);
+     width: 90%;
+     height: 50vh;
+     position: relative;
+     left: 0.7vw;
+     top: 2.4vh;
+ }
+
+ .containerlast{
+     position: relative;
+     top: 45vh;
+     left: 22vw;
+ }
+ .imgfood{
+     width: 20%;
+     height: 18vh;
+     margin: 2vh 0 0 0;
+     object-fit: cover;
+ }
+ .p1{
+    color: #1792D2; 
+    font-family: sans-serif;
+    font-size: 11px;
+    position: relative;
+    left: 22%;
+    bottom: 22.5vh;
+    font-style:italic;
+ }
+ .fineroom{
+     width: 20%;
+     height: 18vh;
+     margin: 2vh 0 0 0;
+     object-fit: cover;
+ }
+.plant{
+    width: 8%;
+    height: 19vh;
+    position: relative;
+    bottom: 56vh;
+    object-fit:cover ;
+    
+}
+footer{
+    height:20vh;
+    background-color: #143774;
+    position: relative;
+    top: 20vh;
+    margin: 0%;
+    
+    
+}
+.pfoot{
+    position: relative;
+    left:46%;
+    top: 40%;
+    color: #ffffff;
+    opacity: 54%;
+}
+.copy{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:47%;
+    top: 30%;
+    opacity: 54%;
+}
+.fifthcon{
+    color:#143774;
+    width: 80%;
+}
+.food2{
+    width: 85%;
+    height: 15%;
+    margin: 1vh 0 0 10%;
+    object-fit: cover;
+}
+.sixthcon{
+    color: #143774;
+    font-family:"ubuntu", sans-serif;
+    font-size: small;
+    letter-spacing: 0px;
+    opacity: 70%;
+    position: relative;
+    left: 10%;
+
+}
+.horline{
+    width:82%;
+    margin-top: 0;
+}
+.chair{
+    width: 85%;
+    height: 15%;
+    margin: 1vh 0 0 10%;
+    object-fit: cover;
+}
+.seventhon{
+    color: #143774;
+    font-family:"ubuntu", sans-serif;
+    font-size: small;
+    letter-spacing: 0px;
+    opacity: 70%;
+    position: relative;
+    left: 10%;
+}
+.plant2{
+    width: 85%;
+    height: 15%;
+    margin: 1vh 0 0 10%;
+    object-fit: cover;
+}
+.ninetoon{
+    color: #143774;
+    font-family:"ubuntu", sans-serif;
+    position: relative;
+    left: 10%;
+    font-size: small;
+    margin-top:0% ;
+    opacity: 70%;
+}
+@media all and (max-width:1196px){
+    .tstyle{
+      font-size: small;
+    }
+    .xstyle{
+      font-size: small;
+    }
+}
+@media all and (max-width:1100px){
+    .tstyle{
+      font-size:x-small;
+    }
+    .xstyle{
+      font-size: x-small;
+    }
+}
+@media all and (max-width:996px){
+    
+    .first4{
+        color: #143774;
+        font-family: "lora", sans-serif;  
+        position: relative;
+        font-size: 23px;
+        top:  6vh;
+        left: 30vw;
+      }
+    .firstp{
+        color: #1792D2;
+        font-family: "ubuntu", sans-serif;
+        font-size: 12px;
+        position: relative;
+        top: 6.4vh;
+        left: 30vw;
+    }  
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin: 60px 0 0 250px;
+    }
+    li{
+        margin: 0.8vw;
+    }
+    header{
+        background-color: #f8f8f8;
+        height: 27vh;
+        opacity: 1;
+    }
+    .firstcontainer{
+        width: 100vw;
+        margin: 0 0 0 3vw;
+    }
+    img{
+       width: 90vw;
+       height: 34vh;
+    }
+    .comment1{
+           color: #707070; font-size: xx-small;
+           position: relative;
+           margin:  3vw 0 0 16vw;
+    }
+    .secondcon{
+        display: none;
+    }
+    .bigcontainer{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 80vh;
+        margin: 0 0 0 3vw;
+    }
+    .first{
+            background-color: rgb(255, 255, 255);
+            width: 60%;
+            height:26vh;
+            border-bottom: 1px solid #707070 ;
+            padding: relative;
+         }
+         .fourth{
+            background-color: #EBEBEB;
+            width: 26%;
+            height: 55vh;
+            position: relative;
+            left: 64vw;
+            bottom: 79.4vh;
+         }
+         .second{
+            background-color: rgb(255, 255, 255);
+            width: 60%;
+            height:25vh;
+         }
+         .tstyle{
+            font-size: 11px;
+        }
+         .third{
+             width: 60%;
+         }
+         .xstyle{
+            font-size: small;
+        } 
+         .containerlast{
+             position: relative;
+             left: 3vw;
+             top: 56vh;
+         }
+         .plant{
+             width: 13%;
+         }
+         .r1{
+            margin-left: 5vw;
+         }
+         .r2{
+            margin-left: 5vw;
+            font-size: small;
+         }
+         .r3{
+            margin-left: 5vw;
+           
+         } 
+    
+}
+
+@media all and (max-width:600px){
+    
+    .first4{
+        color: #143774;
+        font-family: "lora", sans-serif;  
+        position: relative;
+        font-size: 23px;
+        top:  6vh;
+        left: 22vw;
+      }
+    .firstp{
+        color: #1792D2;
+        font-family: "ubuntu", sans-serif;
+        font-size: 12px;
+        position: relative;
+        top: 6.4vh;
+        left: 22vw;
+    }  
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin: 70px 0 0 150px;
+    }
+    li{
+        margin: 2vw;
+    }
+    header{
+        background-color: #f8f8f8;
+        height: 35vh;
+        opacity: 1;
+    }
+    .firstcontainer{
+        width: 100vw;
+        margin: 0 0 0 3vw;
+    }
+    img{
+       width: 90vw;
+       height: 34vh;
+    }
+    .firsthead{
+        position: relative;
+        left: 3vw;
+        top: 0.8vh;
+    }
+    .comment1{
+           color: #707070; font-size: xx-small;
+           position: relative;
+           margin:  3vw 0 0 16vw;
+    }
+    .secondcon{
+        display: none;
+    }
+    .bigcontainer{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 65vh;
+        margin: 0 0 0 3vw;
+    }
+        .first{
+            background-color: rgb(255, 255, 255);
+            width: 90%;
+            height:13vh;
+            border-bottom: 1px solid #707070 ;
+            font-size: small;
+         }
+         .fourth{
+             display:none ;
+         }
+         .second{
+            background-color: rgb(255, 255, 255);
+            width: 90%;
+            height:20vh;
+         }
+         .tstyle{
+             font-size: small;
+         }
+         .third{
+             width: 90%;    
+         }
+         .xstyle{
+             font-size: small;
+         }
+         .containerlast{
+             position: relative;
+             top: 60vh;
+             left:3vw;
+         }
+         .plant{
+             width: 22%;
+         }
+         .r1{
+            margin-left: 14vw;
+         }
+         .r2{
+            margin-left: 14vw;
+            font-size: small;
+         }
+         .r3{
+            margin-left: 14vw;
+           
+         }
+      
+}
+@media all and (max-width:400px){
+    
+    .tstyle{
+        font-size: 1px;
+    }
+    .xstyle{
+        font-size: xx-small;
+    }
+    .r2{
+        font-size: xx-small;
+    }
+}
